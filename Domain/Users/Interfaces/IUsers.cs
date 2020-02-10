@@ -1,7 +1,10 @@
+using System.Threading.Tasks;
+using Domain.Users.Entities;
+
 namespace Domain.Users.Interfaces
 {
     public interface IUsers
     {
-        void Add(User newUser);
+        Task Add(User newUser);
     }
 }

@@ -2,9 +2,8 @@ namespace Domain.Users.Entities
 {
     public class User
     {
-        public User(int id, string name)
+        public User(string name)
         {
-            Id = id;
             Name = name;
         }
 
